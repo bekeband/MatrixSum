@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Unit Tests - Testing your Application: DoubleVector - BasicFunctionality",
+      "setup": "",
+      "run": "mvn -q -B -Dtest=DoubleVectorFromArrayTest#testBasicFunctionality test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.5
+    },
+    {
+      "name": "Unit Tests - Testing your Application: DoubleVector - Accuracy",
+      "setup": "",
+      "run": "mvn -q -B -Dtest=DoubleVectorFromArrayTest#testAccuracy test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.5
+    },
+    {
+      "name": "Unit Tests - Testing your Application: QuadraticEuation",
+      "setup": "",
+      "run": "mvn -q -B -Dtest=QuadraticEuationFromCoefficientsTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
